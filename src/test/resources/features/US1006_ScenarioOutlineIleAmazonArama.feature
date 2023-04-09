@@ -1,3 +1,4 @@
+@regression
 Feature: US1006 Kullanici Scenario outline ile birden fazla kelime aratir
 
 

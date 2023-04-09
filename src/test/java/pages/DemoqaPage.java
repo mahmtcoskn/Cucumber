@@ -10,7 +10,7 @@ public class DemoqaPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(xpath = "//*[text()='Alerts']")
+    @FindBy(xpath = "//span[text()='Alerts']")
     public WebElement alertSekmesi;
 
     @FindBy(xpath = "//button[@id='timerAlertButton']")
